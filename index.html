@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="<%= description %>">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>
+    <%= title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>
+      we're sorry but <%= title %> doesn't work properly without JavaScript enabled. Please enable it to continue.
+    </strong>
+  </noscript>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+
+  <!--script>
+      var _cio = _cio || [];
+      (function() {
+          var a,b,c;a=function(f){return function(){_cio.push([f].
+              concat(Array.prototype.slice.call(arguments,0)))}};b=["load","identify",
+                  "sidentify","track","page"];for(c=0;c<b.length;c++){_cio[b[c]]=a(b[c])};
+          var t = document.createElement('script'),
+              s = document.getElementsByTagName('script')[0];
+          t.async = true;
+          t.id    = 'cio-tracker';
+          t.setAttribute('data-site-id', '1a5bc9ef7f4693ecef6c');
+          t.setAttribute('data-use-array-params', 'true');
+
+          // To disable in-app messages, set this to false
+          t.setAttribute('data-use-in-app', 'true');
+
+          t.src = 'https://assets.customer.io/assets/track-eu.js';
+
+          s.parentNode.insertBefore(t, s);
+      })();
+  </script-->
+</body>
+
+</html>
