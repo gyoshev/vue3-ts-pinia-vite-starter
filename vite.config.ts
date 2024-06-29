@@ -37,7 +37,8 @@ export default defineConfig({
         environment: 'jsdom',
         reporters: ['default'],
         coverage: {
-            reporter: ['text', 'json']
+            reporter: ['text', 'json'],
+            exclude: ['*.cjs', 'src/main.ts', 'src/router/index.ts', 'src/App.vue']
         },
         server: {
             deps: {

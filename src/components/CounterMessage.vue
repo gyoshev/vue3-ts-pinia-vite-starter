@@ -5,7 +5,7 @@ defineOptions({
     name: 'CounterMessage'
 })
 
-export type CounterMessageProps = {
+export interface CounterMessageProps {
     text?: string
 }
 

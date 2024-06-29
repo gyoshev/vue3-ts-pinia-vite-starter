@@ -1,4 +1,4 @@
-import CounterMessage, { CounterMessageProps } from '@/components/CounterMessage.vue'
+import CounterMessage, { CounterMessageProps } from './CounterMessage.vue'
 import { createTestingPinia } from '@pinia/testing'
 import { mount } from '@vue/test-utils'
 import { useCounterStore } from '@/stores/counter'
